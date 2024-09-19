@@ -1,0 +1,39 @@
+body{
+    background-image: url(barca\ 2.webp);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#p1{
+    background-color: blue;
+    border-width: 2px;
+    border-color: aqua;
+    border-style: solid;
+}
+
+#p2{
+    background-color: red;
+    border-width: 2px;
+    border-color: pink;
+    border-style: solid;
+    
+}
+
+#imagem1{
+max-width: 190px;
+border-radius: 20px;
+}
+
+#imagem2{
+    max-width: 190px;
+    border-radius: 50px;
+}
+
+figure{
+    border: 2px solid;
+    border-radius:30px;
+}
+
+figcaption{
+    color: white;
+}

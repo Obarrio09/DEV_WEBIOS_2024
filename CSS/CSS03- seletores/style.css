@@ -1,0 +1,39 @@
+*{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p1{
+    color: blue;
+}
+
+#p2{
+    color: red;
+}
+
+.divs{
+    background-color: aquamarine;
+}
+
+
+#sec1{
+    background-color: red;
+    color: white;
+
+}
+
+#sec2{
+    background-color: purple;
+    color: gray;
+}
+
+.h3{
+    background-color: white;
+    color: black;
+}
+
+
+#P6, a, h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black solid 4px; 
+}
