@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 1px solid green;
+}
+
+p{
+padding-left: 20px;
+padding-top: 50px;
+padding-bottom: 100px;
+padding-right: 100px;
+}
+
+img{
+    padding: 20px;
+}
+
+#img1{
+margin-left: 5px;
+}
+
+#img2{
+    margin-left: 40px;
+    margin-right: 40px;
+}
