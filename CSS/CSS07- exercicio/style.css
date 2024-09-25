@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+#img1{
+    float: left;
+    width: 200px;
+    margin-right: 200px;
+}
+
+#h1{
+    float: left;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
