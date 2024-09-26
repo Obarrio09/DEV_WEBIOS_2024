@@ -25,3 +25,20 @@ input:focus{
 li:first-child{
     border: solid blueviolet;
 }
+
+#p2::after{
+content: "- aqui nos addemos o after";
+border: 1px dotted;
+}
+
+#p2::before{
+    content: "aqui addemos o before -";
+    border: 1px solid red;
+}
+
+.p3::first-letter{
+    font-size: 4em;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
