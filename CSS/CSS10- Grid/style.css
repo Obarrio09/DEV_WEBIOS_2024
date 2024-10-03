@@ -1,0 +1,13 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 25px 25px 25px 25px;
+}
+
+.item{
+    border: 1px solid bisque;
+    background-color: purple;
+    color: bisque;
+}
