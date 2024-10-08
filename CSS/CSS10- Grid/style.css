@@ -1,13 +1,45 @@
+body{
+    background-color: purple;
+}
 
+#grid1{
+    color: greenyellow;
+    border-color: white;
+    text-align: center;
+}
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: 25px 25px 25px 25px;
+    /* grid-template-columns: repeat(4, 50px); */
+    /* grid-template-rows: 25px 25px 25px 25px; */
+    /* column-gap: 10px; */
+    /* row-gap: 15px; */
+    /* justify-items: end; */
+    /* align-items: center; */
+grid-template-areas: "ios ios ios ios" 
+"tcc tcc . cansaço" "logo logo logo logo"; 
 }
 
 .item{
-    border: 1px solid bisque;
-    background-color: purple;
-    color: bisque;
+    border: 1px solid white;
+    background-color: greenyellow;
+    color: purple;
 }
+
+.item1{
+    grid-area: ios;
+}
+
+.item2{
+    grid-area: tcc;
+}
+
+ .item3{
+grid-area: cansaço;
+ }
+
+ .item4{
+grid-area: logo;
+ }
+
+ 
